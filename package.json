@@ -1,0 +1,32 @@
+{
+ "name": "pruebas-software-dawa",
+ "version": "1.0.0",
+ "description": "Proyecto de Pruebas de Software",
+ "scripts": {
+  "test": "jest",
+  "test:watch": "jest --watch",
+  "test:coverage": "jest --coverage"
+ },
+ "jest": {
+  "testEnvironment": "node"
+ },
+ "repository": {
+  "type": "git",
+  "url": "git+https://github.com/lizbethsanzlazo07-sketch/Pruebas-De-Software-Dawa.git"
+ },
+ "keywords": [],
+ "author": "",
+ "license": "ISC",
+ "type": "commonjs",
+ "bugs": {
+  "url": "https://github.com/lizbethsanzlazo07-sketch/Pruebas-De-Software-Dawa/issues"
+ },
+ "homepage": "https://github.com/lizbethsanzlazo07-sketch/Pruebas-De-Software-Dawa#readme",
+ "devDependencies": {
+  "jest": "^30.4.2",
+  "supertest": "^7.2.2"
+ },
+ "dependencies": {
+  "express": "^5.2.1"
+ }
+}
